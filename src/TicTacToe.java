@@ -19,6 +19,13 @@ public class TicTacToe {
             System.out.println("Player" + player + "enter:");
             int row = sc.nextInt();
             int col = sc.nextInt();
+
+            if(board[row][col] == ' '){
+                board[row][col] = player;
+            }
+            else{
+                System.out.println("Invalid move. Try again!");
+            }
         }
     }
 
