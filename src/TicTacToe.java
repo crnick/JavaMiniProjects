@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+//objects can be piece (different symbols extensible)
+// board (m*n) => extensible
+// player
 public class TicTacToe {
     public static void main(String[] args){
         char [][] board = new char[3][3];
